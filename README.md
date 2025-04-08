@@ -133,7 +133,8 @@ To the left of the boat, a dark, weathered object protrudes from the water, poss
 ## Windows Executable
 
 You can download two ready-to-use executables for Win-64 with the embedded .NET runtime:  
-👉 [Download Win-64 Executable](https://github.com/Explo-bot/)
+👉 [https://github.com/Explo-bot/Img2Txt/blob/master/Img2TxtGPT.7z]
+👉 [https://github.com/Explo-bot/Img2Txt/blob/master/Img2TxtGemini.7z]
 
 ---
 
