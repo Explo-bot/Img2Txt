@@ -79,19 +79,19 @@ You can use these offline models with **Img2TxtGPT** by pointing to a local endp
 
 ## Example Outputs
 
-### OpenAI GPT-4o
+### OpenAI GPT-4o-mini
 <p align="center">
   <img src="https://github.com/user-attachments/assets/681b08bd-3bc2-4a84-9376-e86e749db46b" width="256" height="256"><br/>
   [Robot from 'Metropolis' (F. Lang, 1927)]
 </p>
-<b>Description</b>: "The image depicts a cartoon-style drawing of a frog wearing a red hat. The frog has a green face with black eyes, and its mouth is open as if it's speaking or singing. It is holding a cigar in its mouth, which adds to the whimsical nature of the scene. The frog is dressed in a red suit with a white collar, and there are yellow flowers on its lapel, adding a pop of color to the outfit. The background is a light beige color, providing a neutral backdrop that allows the frog to stand out. The overall style of the drawing is playful and imaginative, with exaggerated features and bright colors."
+<b>Description</b>: "The image shows a humanoid robot with a metallic face sitting in a chair. The robot has a feminine form with detailed anatomical features, including a defined chest, arms, and legs. The robot is connected to multiple wires that extend from various points on its body to the sides of the chair. The robot's head is equipped with a headpiece that has additional wires attached. The background is plain and dark, with a geometric shape resembling a pentagon or star drawn above the robot's head. The image is taken from a frontal angle, capturing the entire body of the robot and the chair it is seated on."
 
 ### LM Studio (IBM Granite)
 <p align="center">
   <img src="https://github.com/user-attachments/assets/43e6f75a-3e36-4b16-93a3-4506079b9d27" width="256" height="256"><br/>
   [Flip from Little Nemo comic book]
 </p>
-<b>Description</b>: "The image shows a humanoid robot with a metallic face sitting in a chair. The robot has a feminine form with detailed anatomical features, including a defined chest, arms, and legs. The robot is connected to multiple wires that extend from various points on its body to the sides of the chair. The robot's head is equipped with a headpiece that has additional wires attached. The background is plain and dark, with a geometric shape resembling a pentagon or star drawn above the robot's head. The image is taken from a frontal angle, capturing the entire body of the robot and the chair it is seated on."
+<b>Description</b>: "The image depicts a cartoon-style drawing of a frog wearing a red hat. The frog has a green face with black eyes, and its mouth is open as if it's speaking or singing. It is holding a cigar in its mouth, which adds to the whimsical nature of the scene. The frog is dressed in a red suit with a white collar, and there are yellow flowers on its lapel, adding a pop of color to the outfit. The background is a light beige color, providing a neutral backdrop that allows the frog to stand out. The overall style of the drawing is playful and imaginative, with exaggerated features and bright colors."
 
 ### Gemini gemini-2.0-flash
 <p align="center">
@@ -109,14 +109,17 @@ To the left of the boat, a dark, weathered object protrudes from the water, poss
 1. Open the desired project in Visual Studio 2022.
 2. Edit the `App.config` file with your API key and endpoint.
 3. Build the project.
-4. Run the executable with the folder path as argument:
+4. Run the executable with the image or folder path as argument:
    ```bash
+   Img2TxtGPT.exe "C:\path\to\images\photo.jpg"    
    Img2TxtGPT.exe "C:\path\to\images"
    ```
    or
    ```bash
+   Img2TxtGemini.exe "C:\path\to\images\photo.jpg"  
    Img2TxtGemini.exe "C:\path\to\images"
    ```
+<b>Note</b>: be aware of the maximum image size in bytes (or tokens) that your model supports
 
 5. For each image, a `.txt` file with the description will be generated in the same folder.
 
@@ -124,8 +127,8 @@ To the left of the boat, a dark, weathered object protrudes from the water, poss
 
 ## Error Handling
 
-- If no folder path is provided, an error message is shown and the app exits.
-- If the folder does not exist, an error is shown.
+- If no image or folder path are provided, an error message is shown and the app exits.
+- If the image or the folder do not exist, an error is shown.
 - Image-specific errors are logged to the console.
 
 ---
@@ -133,11 +136,10 @@ To the left of the boat, a dark, weathered object protrudes from the water, poss
 ## Windows Executable
 
 You can download two ready-to-use executables for Win-64 with the embedded .NET runtime:  
-👉 [https://github.com/Explo-bot/Img2Txt/blob/master/Img2TxtGPT.7z]
-👉 [https://github.com/Explo-bot/Img2Txt/blob/master/Img2TxtGemini.7z]
+👉 [Img2TxtGPT.7z](https://github.com/Explo-bot/Img2Txt/blob/master/Img2TxtGPT.7z) e [Img2TxtGemini.7z](https://github.com/Explo-bot/Img2Txt/blob/master/Img2TxtGemini.7z)  
 
 ---
 
 ## License
 
-This project is open-source under the **MIT License**.
+This project is open-source under the **Apache 2.0 License**.
