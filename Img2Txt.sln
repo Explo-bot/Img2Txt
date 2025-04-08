@@ -10,7 +10,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementi di soluzione", "Elementi di soluzione", "{9DF70304-0A22-CE1E-AA12-D5904EE55694}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		..\GetDescrImg\README.md = ..\GetDescrImg\README.md
 	EndProjectSection
 EndProject
 Global
