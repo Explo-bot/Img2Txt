@@ -1,0 +1,80 @@
+## Build results
+bin/
+obj/
+out/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet v3
+*.nuget.props
+*.nuget.targets
+
+## VS Code
+.vscode/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Backup & temporary files
+*~ 
+*.bak
+*.tmp
+*.log
+
+## Rider
+.idea/
+*.sln.iml
+
+## ASP.NET (se c'è hosting in futuro)
+wwwroot/
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+## Global JSON
+global.json
+
+## Dotnet tool restore cache
+**/.store/
+**/.tools/
+
+## Local History for some editors
+.history/
+
+## OS-specific
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+## Auto-generated VS files
+Generated_Code/
