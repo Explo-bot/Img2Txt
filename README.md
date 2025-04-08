@@ -12,8 +12,8 @@ Both projects run on **.NET 8 (Core)** and are compileable for Windows, Linux, a
 
 | Project         | Description                                  |
 |-----------------|----------------------------------------------|
-| **Img2TxtGPT**  | Uses OpenAI's GPT models (or LM Studio).     |
-| **Img2TxtGemini** | Uses Google Gemini API for vision models. |
+| **Img2TxtGPT**  | Uses OpenAI's API (or LM Studio).     |
+| **Img2TxtGemini** | Uses Google Gemini API. |
 
 ---
 
@@ -84,14 +84,14 @@ You can use these offline models with **Img2TxtGPT** by pointing to a local endp
   <img src="https://github.com/user-attachments/assets/681b08bd-3bc2-4a84-9376-e86e749db46b" width="256" height="256"><br/>
   [Robot from 'Metropolis' (F. Lang, 1927)]
 </p>
-**Description**: "The image shows a humanoid robot with a metallic face sitting in a chair..."
+<b>Description</b>: "The image depicts a cartoon-style drawing of a frog wearing a red hat. The frog has a green face with black eyes, and its mouth is open as if it's speaking or singing. It is holding a cigar in its mouth, which adds to the whimsical nature of the scene. The frog is dressed in a red suit with a white collar, and there are yellow flowers on its lapel, adding a pop of color to the outfit. The background is a light beige color, providing a neutral backdrop that allows the frog to stand out. The overall style of the drawing is playful and imaginative, with exaggerated features and bright colors."
 
 ### LM Studio (IBM Granite)
 <p align="center">
   <img src="https://github.com/user-attachments/assets/43e6f75a-3e36-4b16-93a3-4506079b9d27" width="256" height="256"><br/>
   [Flip from Little Nemo comic book]
 </p>
-**Description**: "The image depicts a cartoon-style drawing of a frog wearing a red hat..."
+<b>Description</b>: "The image shows a humanoid robot with a metallic face sitting in a chair. The robot has a feminine form with detailed anatomical features, including a defined chest, arms, and legs. The robot is connected to multiple wires that extend from various points on its body to the sides of the chair. The robot's head is equipped with a headpiece that has additional wires attached. The background is plain and dark, with a geometric shape resembling a pentagon or star drawn above the robot's head. The image is taken from a frontal angle, capturing the entire body of the robot and the chair it is seated on."
 
 ---
 
@@ -124,7 +124,7 @@ You can use these offline models with **Img2TxtGPT** by pointing to a local endp
 ## Windows Executable
 
 You can download two ready-to-use executables for Win-64 with the embedded .NET runtime:  
-👉 [Download Win-64 Executable](https://github.com/Explo-bot/GetDescrImg/blob/main/DescrImg.7z)
+👉 [Download Win-64 Executable](https://github.com/Explo-bot/)
 
 ---
 
