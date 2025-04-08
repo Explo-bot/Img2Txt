@@ -93,6 +93,12 @@ You can use these offline models with **Img2TxtGPT** by pointing to a local endp
 </p>
 <b>Description</b>: "The image shows a humanoid robot with a metallic face sitting in a chair. The robot has a feminine form with detailed anatomical features, including a defined chest, arms, and legs. The robot is connected to multiple wires that extend from various points on its body to the sides of the chair. The robot's head is equipped with a headpiece that has additional wires attached. The background is plain and dark, with a geometric shape resembling a pentagon or star drawn above the robot's head. The image is taken from a frontal angle, capturing the entire body of the robot and the chair it is seated on."
 
+### Gemini gemini-2.0-flash
+![image](https://github.com/user-attachments/assets/6a3f4a3d-7864-48f9-afb3-780f27c7e6e8)
+<b>Description</b>: "The image depicts a small sailboat with several figures aboard, navigating through choppy waters. The sky is a mix of blue and white, suggesting a partly cloudy day. Long lines of clouds stretch across the top of the frame and mirror the pattern of light and dark in the water below.
+The sailboat, painted primarily in shades of white, has a single mast with a large white sail that dominates the right side of the composition. Four figures are visible on the boat. One man is standing, holding onto the mast with one hand, wearing white pants and appearing shirtless. Another man with reddish hair is seated further back on the boat, also shirtless. A third figure, closer to the front of the boat, is seated and wearing a white hat, possibly holding an oar. A fourth figure is crouched behind the man with reddish hair.
+To the left of the boat, a dark, weathered object protrudes from the water, possibly a buoy or some type of marker. The sea around the boat is rendered with choppy waves and whitecaps, indicating wind and movement. The overall impression is one of a brisk sail on a somewhat rough sea, painted with a sense of light and naturalism."
+
 ---
 
 ## How to Use
