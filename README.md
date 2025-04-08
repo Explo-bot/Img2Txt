@@ -24,7 +24,7 @@ Both projects run on **.NET 8 (Core)** and are compileable for Windows, Linux, a
 | **API Key Required**         | ✅ (OpenAI key)     | ❌                      | ✅ (Gemini key) |
 | **Online Access Required**   | ✅                  | ❌ (runs offline)       | ✅              |
 | **Base64 Image Input**       | ✅                  | ✅                      | ✅              |
-| **Free Tier Available**      | ⚠️ (limited)        | ✅ (fully local)        | ✅              |
+| **Free Tier Available**      | ❌                      | ✅ (fully local)        | ✅              |
 | **Supported Formats**        | `.jpg`, `.jpeg`, `.png` | `.jpg`, `.jpeg`, `.png` | `.jpg`, `.jpeg`, `.png` |
 | **Output**                   | `.txt` file per image | `.txt` file per image | `.txt` file per image |
 | **Prompt Customization**     | ✅                  | ✅                      | ✅              |
