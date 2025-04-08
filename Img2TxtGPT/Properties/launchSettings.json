@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Img2TxtGPT": {
-      "commandName": "Project",
-      "commandLineArgs": "\"D:\\AI (Artificial Intelligence)\\LoRa_training_dataset\\H0pp3r\\dataset\\NoTxt\\EH_029.jpg\""
-    }
-  }
-}
