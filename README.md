@@ -37,7 +37,7 @@ Both projects run on **.NET 8 (Core)** and can be compiled for Windows, Linux, a
 ### 🧠 OpenAI GPT (used in Img2TxtGPT)
 - `gpt-4o-mini`
 - `gpt-4o`
-- Requires a paid OpenAI API key.
+- Requires a paid [OpenAI API key](https://platform.openai.com/settings/organization/api-keys).
 
 ### 🧠 Google Gemini (used in Img2TxtGemini)
 - `gemini-2.0-flash`
