@@ -111,7 +111,7 @@ To the left of the boat, a dark, weathered object protrudes from the water, poss
 3. Build the project.
 4. Run the executable with the image or folder path as argument:
    ```bash
-   Img2TxtGPT.exe "C:\path\to\photo.jpg"    
+   Img2TxtGPT.exe "C:\path\to\image.jpg"    
    ```
    ```bash
    Img2TxtGPT.exe "C:\path\to\images"
@@ -119,7 +119,7 @@ To the left of the boat, a dark, weathered object protrudes from the water, poss
    or
    
    ```bash
-   Img2TxtGemini.exe "C:\path\to\photo.jpg"
+   Img2TxtGemini.exe "C:\path\to\image.jpg"
    ```
    ```bash
    Img2TxtGemini.exe "C:\path\to\images"
