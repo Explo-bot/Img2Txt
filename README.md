@@ -19,7 +19,7 @@ Both projects run on **.NET 8 (Core)** and are compileable for Windows, Linux, a
 
 ## Comparison Table
 
-| Feature / Model               | Img2TxtGPT (OpenAI) | Img2TxtGPT (LM Studio) | Img2TxtGemini |
+| Feature / Model               | Img2TxtGPT (OpenAI) | Img2TxtGPT (LM Studio) | Img2TxtGemini (Google) |
 |------------------------------|---------------------|-------------------------|----------------|
 | **API Key Required**         | ✅ (OpenAI key)     | ❌                      | ✅ (Gemini key) |
 | **Online Access Required**   | ✅                  | ❌ (runs offline)       | ✅              |
@@ -34,16 +34,16 @@ Both projects run on **.NET 8 (Core)** and are compileable for Windows, Linux, a
 
 ## Supported Models
 
-### 🧠 OpenAI (used in Img2TxtGPT)
+### 🧠 OpenAI GPT (used in Img2TxtGPT)
 - `gpt-4o-mini`
 - `gpt-4o`
 - Requires a paid OpenAI API key.
 
-### 🧠 Gemini (used in Img2TxtGemini)
+### 🧠 Google Gemini (used in Img2TxtGemini)
 - `gemini-2.0-flash`
 - Free tier available via [Google AI Studio](https://makersuite.google.com/).
 
-### 🧠 Local Vision Models (for LM Studio / Ollama)
+### 🧠 Local Vision Models (for LM Studio)
 You can use these offline models with **Img2TxtGPT** by pointing to a local endpoint like `http://localhost:1234/v1/chat/completions`:
 
 - [IBM Granite 3.2 Vision (2B GGUF)](https://huggingface.co/DevQuasar/ibm-granite.granite-vision-3.2-2b-GGUF)
@@ -57,10 +57,10 @@ You can use these offline models with **Img2TxtGPT** by pointing to a local endp
 ### Img2TxtGPT (`App.config`)
 ```xml
 <appSettings>
-		<add key="openAIKey" value="YOUR_API_KEY"/>
-		<add key="openAIApiEndpoint" value="https://api.openai.com/v1/chat/completions"/>
-		<add key="openAIModelName" value="gpt-4o-mini"/>
-		<add key="prompt" value="Can you give me a detailed description in English of the image?"/>
+	<add key="openAIKey" value="YOUR_API_KEY"/>
+	<add key="openAIApiEndpoint" value="https://api.openai.com/v1/chat/completions"/>
+	<add key="openAIModelName" value="gpt-4o-mini"/>
+	<add key="prompt" value="Can you give me a detailed description in English of the image?"/>
 </appSettings>
 ```
 
@@ -69,9 +69,9 @@ You can use these offline models with **Img2TxtGPT** by pointing to a local endp
 ### Img2TxtGemini (`App.config`)
 ```xml
 <appSettings>
-		<add key="geminiKey" value="YOUR_API_KEY"/>
-		<add key="geminiModelName" value="gemini-2.0-flash"/>
-		<add key="prompt" value="Can you give me a detailed description in English of the image?"/>
+	<add key="geminiKey" value="YOUR_API_KEY"/>
+	<add key="geminiModelName" value="gemini-2.0-flash"/>
+	<add key="prompt" value="Can you give me a detailed description in English of the image?"/>
 </appSettings>
 ```
 
@@ -86,14 +86,14 @@ You can use these offline models with **Img2TxtGPT** by pointing to a local endp
 </p>
 <b>Description</b>: "The image shows a humanoid robot with a metallic face sitting in a chair. The robot has a feminine form with detailed anatomical features, including a defined chest, arms, and legs. The robot is connected to multiple wires that extend from various points on its body to the sides of the chair. The robot's head is equipped with a headpiece that has additional wires attached. The background is plain and dark, with a geometric shape resembling a pentagon or star drawn above the robot's head. The image is taken from a frontal angle, capturing the entire body of the robot and the chair it is seated on."
 
-### LM Studio (IBM Granite)
+### LM Studio (IBM Granite 3.2 Vision)
 <p align="center">
   <img src="https://github.com/user-attachments/assets/43e6f75a-3e36-4b16-93a3-4506079b9d27" width="256" height="256"><br/>
   [Flip from Little Nemo comic book]
 </p>
 <b>Description</b>: "The image depicts a cartoon-style drawing of a frog wearing a red hat. The frog has a green face with black eyes, and its mouth is open as if it's speaking or singing. It is holding a cigar in its mouth, which adds to the whimsical nature of the scene. The frog is dressed in a red suit with a white collar, and there are yellow flowers on its lapel, adding a pop of color to the outfit. The background is a light beige color, providing a neutral backdrop that allows the frog to stand out. The overall style of the drawing is playful and imaginative, with exaggerated features and bright colors."
 
-### Gemini gemini-2.0-flash
+### Google Gemini-2.0-flash
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6a3f4a3d-7864-48f9-afb3-780f27c7e6e8" width="256" height="256"><br/>
   [Painting by Edward Hopper ]
@@ -136,7 +136,7 @@ To the left of the boat, a dark, weathered object protrudes from the water, poss
 ## Windows Executable
 
 You can download two ready-to-use executables for Win-64 with the embedded .NET runtime:  
-👉 [Img2TxtGPT.7z](https://github.com/Explo-bot/Img2Txt/blob/master/Img2TxtGPT.7z) e [Img2TxtGemini.7z](https://github.com/Explo-bot/Img2Txt/blob/master/Img2TxtGemini.7z)  
+👉 [Img2TxtGPT.7z](https://github.com/Explo-bot/Img2Txt/blob/master/Img2TxtGPT.7z) and [Img2TxtGemini.7z](https://github.com/Explo-bot/Img2Txt/blob/master/Img2TxtGemini.7z)  
 
 ---
 
