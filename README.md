@@ -3,7 +3,7 @@
 ## Overview
 This repository includes **two C# console applications** for Visual Studio 2022 that generate image descriptions using AI models.
 
-Both projects run on **.NET 8 (Core)** and are compileable for Windows, Linux, and Mac but use different APIs:
+Both projects run on **.NET 8 (Core)** and can be compiled for Windows, Linux, and Mac, but they use different APIs:
 
 - **Img2TxtGPT** — uses the **OpenAI API** (or LM Studio as a local alternative).
 - **Img2TxtGemini** — uses the **Google Gemini API**.
