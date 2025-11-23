@@ -24,7 +24,7 @@ class Program
         }
 
         // Construct the Gemini API URL
-        string apiUrl = $"https://generativelanguage.googleapis.com/v1beta/models/{geminiModelName}:generateContent?key={geminiApiKey}";
+        string apiUrl = $"https://generativelanguage.googleapis.com/v1/models/{geminiModelName}:generateContent?key={geminiApiKey}";
 
         // Check if the path argument was provided
         if (args.Length != 1)
